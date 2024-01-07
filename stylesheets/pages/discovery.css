@@ -1,0 +1,305 @@
+/* CSS 작성 */
+.logo{
+    position: absolute;
+    width: 176px;
+    height: 40px;
+    left: 321px;
+    top: 100px;
+}
+
+.container{
+    position: absolute;
+    width: 1020px;
+    height: 1010px;
+    left: 321px;
+    top: 188px;
+}
+
+
+.Discovery{
+    position: absolute;
+    width: 1020px;
+    height: 958px;
+    left: 0px;
+    top: 60px;
+}
+
+.DiscoveryTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 366px;
+    height: 28px;
+    left: 0px;
+    top: 8px;
+
+}
+
+
+.tea{
+    position:relative;
+    width: 502px;
+    height: 310px;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid var(--color-gray);
+}
+
+.tea img{
+    position: absolute;
+    width: 446px;
+    height: 270px;
+    left: 28px;
+    top: 20px;
+
+}
+
+.vaseline{
+    position:relative;
+    width: 502px;
+    height: 310px;
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid var(--color-gray);
+}
+
+.vaseline img{
+    position: absolute;
+    width: 446px;
+    height: 270px;
+    left: 28px;
+    top: 20px;
+}
+
+.kamil{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 243px;
+    height: 310px;
+    left: 0px;
+    top: 326px;
+
+    background: #FFFFFF;
+    /* Gray/500 */
+
+    border: 1px solid #C4C4C4;
+}
+
+.kamil img{
+    position: absolute;
+    width: 200px;
+    height: 282px;
+    left: 21px;
+    top: 14px;
+
+}
+
+.bibs {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 243px;
+    height: 310px;
+    left: 259px;
+    top: 326px;
+
+    /* White */
+
+    background: white;
+    /* Gray/500 */
+
+    border: 1px solid var(--color-gray);
+}
+
+.bibs img{
+    position: absolute;
+    width: 200px;
+    height: 282px;
+    left: 21px;
+    top: 14px;
+
+}
+
+.hanssem{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 243px;
+    height: 310px;
+    left: 518px;
+    top: 326px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray/500 */
+
+    border: 1px solid var(--color-gray);
+}
+
+.hanssem img{
+    position: absolute;
+    width: 200px;
+    height: 282px;
+    left: 21px;
+    top: 14px;
+
+}
+
+.dumpling{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 243px;
+    height: 310px;
+    left: 777px;
+    top: 326px;
+
+    background: white;
+    /* Gray/500 */
+
+    border: 1px solid var(--color-gray);
+}
+
+.dumpling img{
+    position: absolute;
+    width: 200px;
+    height: 282px;
+    left: 21px;
+    top: 14px;
+
+}
+
+.wettissue{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 502px;
+    height: 310px;
+    left: 0px;
+    top: 652px;
+
+    background: white;
+    /* Gray/500 */
+
+    border: 1px solid var(--color-gray);
+}
+
+.wettissue img{
+    position: absolute;
+    width: 446px;
+    height: 270px;
+    left: 28px;
+    top: 20px;
+}
+
+.febreze{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 243px;
+    height: 310px;
+    left: 518px;
+    top: 652px;
+
+    background: #FFFFFF;
+
+    border: 1px solid var(--color-gray);
+}
+
+.febreze img{
+    position: absolute;
+    width: 200px;
+    height: 282px;
+    left: 21px;
+    top: 14px;
+
+}
+
+.dyson{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 243px;
+    height: 310px;
+    left: 777px;
+    top: 648px;
+
+    background: #FFFFFF;
+
+    border: 1px solid var(--color-gray);
+}
+
+.dyson img{
+    position: absolute;
+    width: 200px;
+    height: 282px;
+    left: 21px;
+    top: 14px;
+    }
+
+
+.visible {
+    display: inline-block;
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 20px;
+    top: 248px;
+
+    border-style: none;
+    background: rgba(0, 0, 0, 0.2);
+
+    color: white;
+   
+
+}
+
+.hidden {
+  display: none;
+
+  position: absolute;
+  width: 112px;
+  height: 42px;
+  left: 20px;
+  top: calc(50% - 42px/2 + 114px);
+
+  border-style: none;
+  background: var(--color-blue);  
+
+  color: white;
+
+}
+
+.border:hover{
+    border: 1px solid var(--color-blue);  
+}
+
+.border:hover #btn1 {
+    display: none;
+}
+
+.border:hover #btn2 {
+    display: inline;
+    transition: 3s;
+}
+
+.border:focus{
+    border: 1px solid var(--color-blue);  
+    transition: 3s;
+}
+
+.border:focus #btn1 {
+    display: none;
+}
+
+.border:focus #btn2 {
+    display: inline;
+}
